@@ -33,3 +33,7 @@ body {
 	padding: 20px;
 	text-align: center;
 }
+
+.row > * {
+  flex-shrink: unset; /* or remove restriction entirely */
+}
