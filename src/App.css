@@ -35,5 +35,6 @@ body {
 }
 
 .row > * {
-  flex-shrink: unset; /* or remove restriction entirely */
+  flex-shrink: unset;
+  width: 50%; /* or remove restriction entirely */
 }
